@@ -1,0 +1,51 @@
+body{
+    background-color: #F5E9DA;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    border-top: solid 3px #B8860B;
+    border-bottom: solid 3px #B8860B;
+    background-color: #B8860B;
+}
+ nav a {
+    text-decoration: none;
+    color: black;
+ }
+    a:hover{
+    color: #4B2E2E;
+    background-color: blue;
+    }
+    a:focus{
+        color: black;
+        background-color: aqua;
+    }
+h1{
+ text-align: center;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+article{
+    border: dashed 3px black;
+    width: 200px;
+    margin: 10px;
+}
+section{
+    display: flex;
+    flex: wrap;
+}
+footer{
+    border-top: double 3px black;
+    border-bottom: double 3px black;
+}
+.order{
+    text-align: center;
+    border: solid 3px brown;
+    border-radius: 40px;
+    background-color:  brown;
+}
+.order:hover{
+    background-color: green;
+}
